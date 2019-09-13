@@ -1,0 +1,172 @@
+html{
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+body{
+  margin: 0;
+}
+
+@media (min-width: 768px){
+.nav {
+
+}
+}
+@media (min-width: 768px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+
+/* .nav{
+  box-sizing: border-box;
+  margin: 0px;
+
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 72px;
+  padding-left: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+} */
+
+.nav{
+  box-sizing: border-box;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  letter-spacing: normal;
+  margin: 0px;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  padding-left: 72px;
+  padding-right: 72px;
+  width: 100%;
+  letter-spacing: 2px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.portfolio{
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: flex-start;
+  max-width: 100%;
+  min-width: 33.3%;
+
+
+
+
+}
+.logo{
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  letter-spacing: normal;
+  padding-right: 28px;
+
+
+
+
+}
+.about{
+  box-sizing: border-box;
+  padding: 6px;
+}
+.about a{
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: normal;
+  line-height: 24px;
+  padding-right: 56px;
+  position: relative;
+
+
+  letter-spacing: 2px;
+
+}
+
+}
+.contact{
+   padding-left: 20px;
+}
+
+.contact a{
+  padding: 6px;
+  letter-spacing: 2px;
+}
+
+.aboutc{
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  letter-spacing: normal;
+  min-width: 33.33%;
+  max-width: 100%;
+
+
+
+}
+
+
+
+
+
+.grid
+ {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,346px);  /* 3 columns */
+  grid-template-rows: repeat(2,346px); /* 3 rows  */
+  grid-gap:7px 7px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.grid img {
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+section{
+  display: block;
+  margin: auto;
+  width: 1052px;
+}
+/* .portwrap{
+  display: flex;
+  flex-basis: 0%
+  box-sizing: border-box;
+  align-items: center;
+  height: 148px;
+  width: 446.336px;
+  padding-bottom: 48px;
+  max-width: 100%
+
+} */
