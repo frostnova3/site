@@ -159,14 +159,39 @@ section{
   margin: auto;
   width: 1052px;
 }
-/* .portwrap{
-  display: flex;
-  flex-basis: 0%
-  box-sizing: border-box;
-  align-items: center;
-  height: 148px;
-  width: 446.336px;
-  padding-bottom: 48px;
-  max-width: 100%
 
-} */
+.main{
+  display: block;
+  padding-bottom: 140px;
+  padding-top: 140px;
+
+}
+
+h1{
+  box-sizing: border-box;
+  display: block;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 47.5px;
+  text-align: center;
+  max-width: 100%;
+  width: 569px;
+  margin: auto;
+}
+
+.biopic img{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.biopic{
+  box-sizing: border-box;
+  display: block;
+  padding-bottom: 72px;
+  padding-top: 72px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  border-left-color: red;
+}
