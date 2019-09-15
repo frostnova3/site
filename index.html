@@ -9,6 +9,8 @@
   <title>Document</title>
 </head>
 <body>
+
+
   <div class="nav">
       <div class="portfolio"><a style="color:red;" href="index.html">Portfolio</a></div>
       <div class="logo"> <a href="index.html"><img src="img/logo.png" ALT="logo" width=100 height=100></a></div>
@@ -35,6 +37,20 @@
 
       </div>
     </section>
-
+    <script>
+    $(document).ready(function()
+    {
+    $(".logo").hover(
+        function()
+        {
+            $(this).attr("src", "img/logo.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "img/logo.png");
+        }
+    );
+    });
+    </script>
 </body>
 </html>
