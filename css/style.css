@@ -139,6 +139,7 @@ margin: auto;
 .grid img{
 
     width: 400px;
+    height: 400px;
     margin: 5px;
     transition: all 1s;
 
