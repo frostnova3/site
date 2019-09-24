@@ -128,25 +128,23 @@ a:hover {
   max-width: 100%;
 }
 .grid{
-  padding-top: 50px;
+  padding-top: 100px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-max-width: 90%;
-padding-bottom: 200px;
-
+max-width: 85%;
 
 margin: auto;
 }
 .grid img{
 
-    width: 30%;
+    width: 400px;
     margin: 5px;
-
+    transition: all 1s;
 
 }
 img:hover{
-    opacity: 0.5;
+    transform: scale(1)
 }
 
 
