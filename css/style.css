@@ -127,32 +127,28 @@ a:hover {
   min-width: 33.33%;
   max-width: 100%;
 }
+.grid{
+  padding-top: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 90%;
+padding-bottom: 200px;
 
 
+margin: auto;
+}
+.grid img{
+
+    width: 30%;
+    margin: 5px;
 
 
-
-.grid
- {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: grid;
-  grid-template-columns: repeat(3,346px);  /* 3 columns */
-  grid-template-rows: repeat(2,346px); /* 3 rows  */
-  grid-gap:7px 7px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+img:hover{
+    opacity: 0.5;
 }
 
-.grid img {
-  width: 100%;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-section{
-  display: block;
-  margin: auto;
-  width: 1052px;
-}
 
 .main{
   display: block;
@@ -172,8 +168,8 @@ h1{
   max-width: 100%;
   width: 569px;
   margin: auto;
-}
 
+}
 .biopic img{
   text-align: center;
   display: block;
