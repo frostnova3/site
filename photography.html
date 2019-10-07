@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="script/jquery.min.js"></script>
+  <script src="script/owl.carousel.min.js"></script>
+  <title>Photography</title>
+</head>
+<body>
+
+
+  <div class="nav">
+      <div class ="designsg">
+          <div class="portfolio"><a style="color:black;" href="index.html">Designs</a></div>
+          <div class="about"><a style="color:#81ECEC;" href="photography.html">Photography</a></div>
+      </div>
+          <div class="logo"> <a href="index.html"><img src="img/logo.png" ALT="logo" width=100 height=100></a></div>
+          <div class="contact"><a style="color:black;" href="about.html">About Me</a></div>
+</div>
+<script>
+
+  $(document).ready(function() {
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                  margin: 10,
+                  nav: true,
+                  autoWidth:true,
+                  loop: true,
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    600: {
+                      items: 3
+                    },
+                    1000: {
+                      items: 5
+                    }
+                  }
+                })
+              });
+
+
+
+
+</script>
+            <div class="owl-carousel">
+              <div> <img src="img/brend.jpg" style="width:550px"> </div>
+              <div> <img src="img/cally.jpg" style="width:550px"> </div>
+              <div> <img src="img/g.jpg" style="width:550px"> </div>
+              <div> <img src="img/gis.jpg" style="width:550px"> </div>
+              <div> <img src="img/marcela.jpg" style="width:550px"> </div>
+              <div> <img src="img/sam.jpg" style="width:550px"> </div>
+              <!-- <div> <img src="img/fox.png"> </div> -->
+            </div>
+
+
+
+</body>
+</html>

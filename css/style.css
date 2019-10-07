@@ -9,6 +9,30 @@ body{
 
 }
 
+@media screen and (max-width: 1400px) {
+.fox {
+      min-width: 99%;
+      order:1;
+      width: 99%;
+    }
+
+    .description {
+        order: 0;
+        margin-bottom: 20px;
+        font-size: 2.5vw;
+        min-width: 98%;
+        margin-left:-28px;
+
+
+    }
+
+    body{
+      background-color: pink;
+    }
+
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -54,20 +78,46 @@ a:hover {
   opacity: 0.5;
 }
 
-.portfolio{
+.designsg{
+  font-size: 200px;
   align-items: center;
   box-sizing: border-box;
   display: flex;
+  flex-basis: 0%;
   flex-grow: 1;
   flex-shrink: 1;
+  font-size: 16px;
   justify-content: flex-start;
   max-width: 100%;
   min-width: 33.3%;
-
-
-
+  position: relative;
 
 }
+
+
+
+.contact{
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-content: flex-end;
+  max-width: 100%;
+  min-width: 33.3%;
+  font-size: 16px;
+}
+
+.about{
+  box-sizing: border-box;
+  display: block;
+  padding-left: 56px;
+  font-size: 16px;
+}
+
+
  .logo{
   align-items: center;
   box-sizing: border-box;
@@ -82,48 +132,6 @@ a:hover {
   padding-right: 28px;
 }
 
-
-
-
-.about{
-  box-sizing: border-box;
-  padding: 6px;
-}
-.about a{
-  box-sizing: border-box;
-  display: block;
-  letter-spacing: normal;
-  line-height: 24px;
-  padding-right: 56px;
-  position: relative;
-
-
-  letter-spacing: 2px;
-
-}
-
-}
-.contact{
-   padding-left: 20px;
-}
-
-.contact a{
-  padding: 6px;
-  letter-spacing: 2px;
-}
-
-.aboutc{
-  align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-basis: 0%;
-  flex-grow: 1;
-  flex-shrink: 1;
-  justify-content: flex-end;
-  letter-spacing: normal;
-  min-width: 33.33%;
-  max-width: 100%;
-}
 .grid{
 padding-top: 100px;
 display: flex;
@@ -447,3 +455,51 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+/*  seperat pages for images     */
+
+.canvas{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin:auto;
+  padding-top:50px;
+
+}
+
+.canvas img{
+  width:100%;
+  justify-content: flex-start;
+}
+
+
+
+
+
+ .description{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 3vh;
+ }
+ .fox{
+   display:inline-block;
+   width: 52%;
+   margin: 4px;
+ }
+ .footer{
+   width:100%;
+   height: 200px;
+ }
+
+ span{
+   font-size: 4vh;
+ }
+
+ .owl-carousel{
+   padding-top: 100px;
+ }
+
+ 
