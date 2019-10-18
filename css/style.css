@@ -26,7 +26,7 @@ body{
 
     }
 
-   
+
 
 
 }
@@ -130,22 +130,28 @@ a:hover {
   padding-right: 28px;
 }
 
-.grid{
+/* .grid{
 padding-top: 100px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-max-width: 85%;
+/* max-width: 85%; */
+max-width: 100%;
 padding-bottom: 200px;
 margin: auto;
 }
 .grid img{
 
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     /* margin: 5px; */
     text-align: center;
 
+} */
+
+.grid{
+  margin: auto;
+  padding-bottom: 100px;
 }
 
 
@@ -499,5 +505,3 @@ figure.effect-zoe:hover p.icon-links a:first-child {
  .owl-carousel{
    padding-top: 100px;
  }
-
- 
